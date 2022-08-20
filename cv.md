@@ -7,6 +7,7 @@
 * **Discord:** VyskeyK
 ## About me
 I am 26 years old. I work in tech support. At the same time, I am self-taught in the field of frontend development. I have no experience in frontend, but I am sure that my desire for knowledge will help me.
+
 My goal is to get practice. Thanks to this, I will be able to try myself in a new profession with confidence.
 ## Skils
 * HTML5
