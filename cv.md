@@ -31,3 +31,14 @@ function removeChar(str){
 * Layout project within the framework of the marathon from the HTML Academy
     * [Layout](https://vyskeyk.github.io/marathon/)
     * [Source](https://github.com/VyskeyK/marathon)
+## Education
+* **University:** University Polytechnic College "Radiopolytechnicum"'15, Peter the Great St. Petersburg Polytechnic University'18
+* **Courses:**
+    * [HTML Academy](https://htmlacademy.ru/)
+    * HyperSkill [Frontend Core](https://hyperskill.org/tracks/5): _36% completed topics, 50% applied core topics (by completing project stages)_
+    * [w3schools](https://www.w3schools.com/) _(in progress)_
+    * **HTML and CSS: Visual QuickStart Guide, 9th Edition** (2020), Joe Casabona _(completed)_
+    * [HTML Code-Basics](https://ru.code-basics.com/languages/html) _(completed)_
+    * [CSS Code-Basics](https://ru.code-basics.com/languages/html) _(completed)_
+    * JavaScript Manual on [https://learn.javascript.ru/](https://learn.javascript.ru/) _(in progress)_
+    * RS Schools Course [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) _(in progress)_
