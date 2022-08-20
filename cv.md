@@ -31,6 +31,7 @@ function removeChar(str){
 * Layout project within the framework of the marathon from the HTML Academy
     * [Layout](https://vyskeyk.github.io/marathon/)
     * [Source](https://github.com/VyskeyK/marathon)
+
 ## Education
 * **University:** University Polytechnic College "Radiopolytechnicum"'15, Peter the Great St. Petersburg Polytechnic University'18
 * **Courses:**
