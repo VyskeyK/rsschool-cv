@@ -42,3 +42,6 @@ function removeChar(str){
     * [CSS Code-Basics](https://ru.code-basics.com/languages/html) _(completed)_
     * JavaScript Manual on [https://learn.javascript.ru/](https://learn.javascript.ru/) _(in progress)_
     * RS Schools Course [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) _(in progress)_
+## Languages
+* Russian: Native
+* English: [C1 Advanced](https://www.efset.org/cert/jpAtuC) (according to EF SET online test)
