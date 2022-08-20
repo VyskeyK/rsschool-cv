@@ -16,3 +16,15 @@ My goal is to get practice. Thanks to this, I will be able to try myself in a ne
 * Git/GitHub
 * VS Code
 * Adobe Photoshop, Figma
+## Code Example
+**Remove First and Last Character KATA from CODEWARS:** __It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.__
+
+```js
+function removeChar(str){
+    let newStr='';
+    for (let i=1; i<str.length-1; i++){
+        newStr += str[i];
+    };
+    return newStr;
+};
+```
