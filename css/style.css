@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Bellota+Text&family=Inter&family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Bellota+Text&family=Inter&family=Lato:wght@400;700&family=Poppins&display=swap');
 
 :root {
     --main-bg-color: #fff;
@@ -16,4 +16,12 @@ h1 {
     text-align: right;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+}
+
+h2 {
+    font: normal 15px 'Lato', sans-serif;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--main-font-color);
 }
