@@ -9,3 +9,11 @@
     --add-font-color: #fff;
     --item-color: #ED6A6D;
 }
+
+h1 {
+    font: normal 36px 'Bellota Text', cursive;
+    line-height: 141%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
