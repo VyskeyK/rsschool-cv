@@ -25,3 +25,26 @@ h2 {
     text-transform: uppercase;
     color: var(--main-font-color);
 }
+
+#contact h2 {
+    font-size: 11px;
+    line-height: 141%;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(196, 196, 196, 0.3);
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+#contact h2::before {
+    content: "Junior Front-end developer";
+    display: inline-block;
+    font-size: 11px;
+    line-height: 141%;
+    text-align: center;
+    color: var(--add-font-color);
+    background-color: var(--accent-bg-color);
+    width: 180px;
+    line-height: 20px;
+    margin-right: 5px;
+}
