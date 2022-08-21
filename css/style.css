@@ -8,6 +8,8 @@
     --accent-font-color: #000;
     --add-font-color: #fff;
     --item-color: #ED6A6D;
+    --contact-color: #231F20;
+    --contact-b-color: #BBBDBF;
 }
 
 h1 {
@@ -47,4 +49,58 @@ h2 {
     width: 180px;
     line-height: 20px;
     margin-right: 5px;
+}
+
+#contact ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: var(--contact-color);
+    margin-left: 15px;
+}
+
+#contact ul li {
+    list-style-type: none;
+    line-height: 30px;
+    border-bottom: 0.75px solid var(--contact-b-color);
+    position: relative;
+}
+
+#contact ul a {
+    text-decoration: none;
+    color: var(--contact-color);
+}
+
+#contact ul li::before {
+    display: inline-block;
+    position: absolute;
+    left: -40px;
+    content: ' ';
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#phone::before {
+    background-image: url("../img/Phone.svg");
+}
+
+#mail::before {
+    background-image: url("../img/Gmail.svg");
+}
+
+#git::before {
+    background-image: url("../img/GitHub.svg");
+}
+
+#tg::before {
+    background-image: url("../img/Telegram.svg");
+}
+
+#discord::before {
+    background-image: url("../img/Discord.svg");
 }
