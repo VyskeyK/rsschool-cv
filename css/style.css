@@ -144,20 +144,38 @@ h2 {
 }
 
 .circle-cropper {
+    order: 1;
     position: relative;
     overflow: hidden;
+    margin-top: 30px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
 .circle-cropper img {
-    margin: 0 auto;
     height: 100%;
     width: auto;
 }
 
+.about-me .wrapper {    
+    order: 2;
+    width: 230px;
+    border-bottom: 1px solid var(--add-font-color);
+}
+
 .about-me h2 {
-    position: relative;
-    z-index: 1;
+    margin-bottom: 0;
+    margin-right: 10px;;
+    font-family: 'Arimo', sans-serif;
+    text-align: right;
+    color: var(--add-font-color);
+}
+
+.about-me p {
+    order: 3;
+    width: 230px;
+    font: normal 10px 'Poppins', sans-serif;
+    text-align: justify;
+    letter-spacing: 0.075em;
 }
