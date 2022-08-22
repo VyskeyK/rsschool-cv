@@ -12,6 +12,10 @@
     --contact-b-color: #BBBDBF;
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
     font: normal 36px 'Bellota Text', cursive;
     line-height: 141%;
