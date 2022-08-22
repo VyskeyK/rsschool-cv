@@ -69,6 +69,7 @@ h2 {
 #contact ul li {
     position: relative;
     list-style-type: none;
+    margin-bottom: 10px;
     line-height: 30px;
     border-bottom: 0.75px solid var(--contact-b-color);
 }
