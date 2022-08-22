@@ -107,3 +107,17 @@ h2 {
 #discord::before {
     background-image: url("../img/Discord.svg");
 }
+
+.circle-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circle-cropper img {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
