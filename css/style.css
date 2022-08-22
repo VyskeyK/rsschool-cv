@@ -108,23 +108,10 @@ h2 {
     background-image: url("../img/Discord.svg");
 }
 
-.circle-cropper {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.circle-cropper img {
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
-}
-
 .about-me {
     position: relative;
     width: 260px;
+    color: var(--add-font-color);
     background-color: var(--accent-bg-color);
 }
 
@@ -151,6 +138,21 @@ h2 {
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;   
     border-right: 15px solid var(--main-bg-color);
+}
+
+.circle-cropper {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 30 auto;
+    border-radius: 50%;
+}
+
+.circle-cropper img {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }
 
 .about-me h2 {
