@@ -196,3 +196,20 @@ h2 {
 .skills h2 {
     text-align: right;
 }
+
+.skills ul {
+    position: relative;
+    list-style-type: none;
+}
+
+.skills ul li::before {
+    content: ' ';
+    display: inline-block;
+    position: absolute; 
+    left: 20px;
+    margin-top: 4px; 
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: var(--item-color);
+}
