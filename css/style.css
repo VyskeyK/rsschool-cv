@@ -3,7 +3,7 @@
 :root {
     --main-bg-color: #fff;
     --accent-bg-color: #FFBFBF;
-    --add-bg-color: #C4C4C4;
+    --add-bg-color: rgba(196, 196, 196, .2);
     --main-font-color: #343434;
     --accent-font-color: #000;
     --add-font-color: #fff;
@@ -179,4 +179,9 @@ h2 {
     font: normal 10px 'Poppins', sans-serif;
     text-align: justify;
     letter-spacing: 0.075em;
+}
+
+.skills {
+    width: 260px;
+    background-color: var(--add-bg-color);
 }
