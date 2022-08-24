@@ -182,9 +182,36 @@ h2 {
 }
 
 .skills {
+    position: relative;
     width: 260px;
     padding-bottom: 25px;
     background-color: var(--add-bg-color);
+}
+
+.skills::before {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 245px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;   
+    border-right: 15px solid var(--main-bg-color);
+}
+
+.skills::after {
+    content: ' ';
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 245px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;   
+    border-right: 15px solid var(--main-bg-color);
 }
 
 .skills .wrapper {
