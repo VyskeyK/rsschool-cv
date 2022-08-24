@@ -34,6 +34,10 @@ h2 {
     color: var(--main-font-color);
 }
 
+.wrapper {
+    border-bottom: 1px solid var(--main-font-color);
+}
+
 #contact h2 {
     font-size: 11px;
     line-height: 141%;
@@ -163,7 +167,7 @@ h2 {
 .about-me .wrapper {    
     order: 2;
     width: 230px;
-    border-bottom: 1px solid var(--add-font-color);
+    border-color: var(--add-font-color);
 }
 
 .about-me h2 {
@@ -218,7 +222,6 @@ h2 {
     width: 210px;
     margin: 15px auto;
     padding-top: 35px;
-    border-bottom: 1px solid var(--main-font-color);
 }
 
 .skills h2 {
