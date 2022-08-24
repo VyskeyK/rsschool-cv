@@ -185,3 +185,8 @@ h2 {
     width: 260px;
     background-color: var(--add-bg-color);
 }
+
+.skills .wrapper {
+    width: 230px;
+    border-bottom: 1px solid var(--main-font-color);
+}
