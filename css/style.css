@@ -183,12 +183,13 @@ h2 {
 
 .skills {
     width: 260px;
+    padding-bottom: 25px;
     background-color: var(--add-bg-color);
 }
 
 .skills .wrapper {
-    width: 230px;
-    margin: 0 auto;
+    width: 210px;
+    margin: 15px auto;
     padding-top: 35px;
     border-bottom: 1px solid var(--main-font-color);
 }
@@ -199,7 +200,12 @@ h2 {
 
 .skills ul {
     position: relative;
+    margin: 10px;
     list-style-type: none;
+}
+
+.skills ul li {
+    margin-bottom: 10px;
 }
 
 .skills ul li::before {
