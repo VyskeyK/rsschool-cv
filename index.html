@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="hightlight/default.min.css">
     <title>VyskeyK's CV</title>
 </head>
 <body>
@@ -60,8 +61,8 @@
                 <h2>Code Example</h2>
             </div>
             <p><b>Remove First and Last Character KATA from CODEWARS:</b> <i>It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.</i></p>
-            <code>
-                <pre>
+            <pre>
+                <code class="javascript-html">
                     function removeChar(str){
                         let newStr='';
                         for (let i=1; i&lt;str.length-1; i++){
@@ -69,8 +70,8 @@
                         };
                         return newStr;
                     };
-                </pre>
-            </code>
+                </code>
+            </pre>
         </section>
         <div class="wrapper">
             <h2>Experience</h2>
@@ -115,5 +116,7 @@
             <li><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="Course logo"></a></li>
         </ul>
     </footer>
+    <script src="hightlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
