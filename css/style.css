@@ -25,7 +25,8 @@ h1 {
     text-transform: uppercase;
 }
 
-h2 {
+h2 {    
+    margin: 0;
     font: normal 15px 'Lato', sans-serif;
     line-height: 18px;
     letter-spacing: 0.08em;
@@ -166,8 +167,7 @@ h2 {
 }
 
 .about-me h2 {
-    margin-bottom: 0;
-    margin-right: 10px;;
+    margin: 15px 10px 0 0;
     font-family: 'Arimo', sans-serif;
     text-align: right;
     color: var(--add-font-color);
@@ -188,5 +188,11 @@ h2 {
 
 .skills .wrapper {
     width: 230px;
+    margin: 0 auto;
+    padding-top: 35px;
     border-bottom: 1px solid var(--main-font-color);
+}
+
+.skills h2 {
+    text-align: right;
 }
