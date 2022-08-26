@@ -30,7 +30,7 @@ a {
 }
 
 .left {
-    width: 260px;
+    width: 350px;
     margin-right: 20px;
 }
 
@@ -137,7 +137,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     position: relative;
-    width: 260px;
+    width: 350px;
     color: var(--add-font-color);
     background-color: var(--accent-bg-color);
 }
@@ -159,7 +159,7 @@ h2 {
     display: inline-block;
     position: absolute;
     top: 200px;
-    left: 245px;
+    left: 335px;
     width: 0;
     height: 0;
     border-top: 5px solid transparent;
@@ -184,7 +184,7 @@ h2 {
 
 .about-me .wrapper {    
     order: 2;
-    width: 230px;
+    width: 320px;
     border-color: var(--add-font-color);
 }
 
@@ -197,14 +197,14 @@ h2 {
 
 .about-me p {
     order: 3;
-    width: 230px;
+    width: 320px;
     text-align: justify;
     letter-spacing: 0.075em;
 }
 
 .skills, .languages {
     position: relative;
-    width: 260px;
+    width: 350px;
     padding-bottom: 25px;
     background-color: var(--add-bg-color);
 }
@@ -214,7 +214,7 @@ h2 {
     display: inline-block;
     position: absolute;
     top: 50px;
-    left: 245px;
+    left: 335px;
     width: 0;
     height: 0;
     border-top: 5px solid transparent;
@@ -226,8 +226,8 @@ h2 {
     content: ' ';
     display: inline-block;
     position: absolute;
-    top: 200px;
-    left: 245px;
+    top: 250px;
+    left: 335px;
     width: 0;
     height: 0;
     border-top: 5px solid transparent;
@@ -236,7 +236,7 @@ h2 {
 }
 
 .skills .wrapper, .languages .wrapper {
-    width: 210px;
+    width: 300px;
     margin: 15px auto;
     padding-top: 35px;
 }
