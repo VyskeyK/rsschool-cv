@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="hightlight/default.min.css">
     <title>VyskeyK's CV</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,93 +25,119 @@
         </nav>
     </header>
     <main>
-        <h1>Ekaterina Vyskar</h1>
-        <section id="contact">
-            <h2>Contact</h2>
-            <ul>
-                <li id="phone"><a href="tel:+79602471323">+7 960 247 13 23</a></li>
-                <li id="mail"><a href="mailto:robintyan96@gmail.com">robintyan96@gmail.com</a></li>
-                <li id="git"><a href="https://github.com/VyskeyK">VyskeyK</a></li>
-                <li id="tg"><a href="https://t.me/vyskey">@vyskey</a></li>
-                <li id="discord">VyskeyK</li>
-            </ul>
-        </section>
-        <section class="about-me">
-            <div class="wrapper">
-                <h2>About me</h2>
+        <div class="left">
+            <section class="about-me">
+                <div class="wrapper">
+                    <h2>About me</h2>
+                </div>
+                <div class="circle-cropper">
+                    <img src="img/photo_crop.jpg" alt="My photo">
+                </div>
+                <p> I am 26 years old. I work in tech support. At the same time, I am self-taught in the field of frontend
+                    development. I have no experience in frontend, but I am sure that my desire for knowledge will help me.
+                </p>
+                <p>My goal is to get practice. Thanks to this, I will be able to try myself in a new profession with
+                    confidence.</p>
+                </section>
+            <section class="skills">
+                <div class="wrapper">
+                    <h2>Skills</h2>
+                </div>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (Fundamentals)</li>
+                    <li>Git/GitHub</li>
+                    <li>VS Code</li>
+                    <li>Adobe Photoshop, Figma</li>
+                </ul>
+            </section>
+            <section class="languages">
+                <div class="wrapper">
+                    <h2>Languages</h2>
+                </div>
+                <ul>
+                    <li>Russian: Native</li>
+                    <li>English: <a href="https://www.efset.org/cert/jpAtuC">C1 Advanced</a> (according to EF SET online
+                        test)</li>
+                </ul>
+            </section>            
+        </div>
+        <div class="right">
+            <div class="name">
+                <h1>Ekaterina Vyskar</h1>
             </div>
-            <div class="circle-cropper">
-                <img src="img/photo_crop.jpg" alt="My photo">            
-            </div>
-            <p> I am 26 years old. I work in tech support. At the same time, I am self-taught in the field of frontend development. I have no experience in frontend, but I am sure that my desire for knowledge will help me.</p>
-            <p>My goal is to get practice. Thanks to this, I will be able to try myself in a new profession with confidence.</p>
-        </section>
-        <section class="skills">
-            <div class="wrapper">
-                <h2>Skills</h2>
-            </div>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript (Fundamentals)</li>
-                <li>Git/GitHub</li>
-                <li>VS Code</li>
-                <li>Adobe Photoshop, Figma</li>
-            </ul>
-        </section>
-        <section class="code">
-            <div class="wrapper">
-                <h2>Code Example</h2>
-            </div>
-            <p><b>Remove First and Last Character KATA from CODEWARS:</b> <i>It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.</i></p>
-            <pre>
-                <code class="javascript-html">
-                    function removeChar(str){
-                        let newStr='';
-                        for (let i=1; i&lt;str.length-1; i++){
-                            newStr += str[i];
+            <section id="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li id="phone"><a href="tel:+79602471323">+7 960 247 13 23</a></li>
+                    <li id="mail"><a href="mailto:robintyan96@gmail.com">robintyan96@gmail.com</a></li>
+                    <li id="git"><a href="https://github.com/VyskeyK">VyskeyK</a></li>
+                    <li id="tg"><a href="https://t.me/vyskey">@vyskey</a></li>
+                    <li id="discord">VyskeyK</li>
+                </ul>
+            </section>
+            <section class="code">
+                <div class="wrapper">
+                    <h2>Code Example</h2>
+                </div>
+                <p><b>Remove First and Last Character KATA from CODEWARS:</b> <i>It's pretty straightforward. Your goal is
+                        to create a function that removes the first and last characters of a string. You're given one
+                        parameter, the original string. You don't have to worry with strings with less than two
+                        characters.</i></p>
+                <pre>
+                    <code class="javascript-html">
+                        function removeChar(str){
+                            let newStr='';
+                            for (let i=1; i&lt;str.length-1; i++){
+                                newStr += str[i];
+                            };
+                            return newStr;
                         };
-                        return newStr;
-                    };
-                </code>
-            </pre>
-        </section>
-        <div class="wrapper">
-            <h2>Experience</h2>
-        </div>
-        <ul>
-            <li>Layout project within the framework of the marathon from the HTML Academy
+                    </code>
+                </pre>
+            </section>
+            <section class="experience">
+                <div class="wrapper">
+                    <h2>Experience</h2>
+                </div>
                 <ul>
-                    <li><a href="https://vyskeyk.github.io/marathon/"></a>Layout</li>
-                    <li><a href="https://github.com/VyskeyK/marathon"></a>Source</li>
+                    <li>Layout project within the framework of the marathon from the HTML Academy
+                        <ul>
+                            <li><a href="https://vyskeyk.github.io/marathon/"></a>Layout</li>
+                            <li><a href="https://github.com/VyskeyK/marathon"></a>Source</li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-        <div class="wrapper">
-            <h2>Education</h2>
-        </div>
-        <ul>
-            <li><b>University:</b> University Polytechnic College "Radiopolytechnicum"'15, Peter the Great St. Petersburg Polytechnic University'18</li>
-            <li><b>Courses:</b>
+            </section>
+            <section class="education">
+                <div class="wrapper">
+                    <h2>Education</h2>
+                </div>
                 <ul>
-                    <li><a href="https://htmlacademy.ru/"></a>HTML Academy</li>
-                    <li>HyperSkill <a href="https://hyperskill.org/tracks/5">Frontend Core</a>: <i>36% completed topics, 50% applied core topics (by completing project stages)</i></li>
-                    <li><a href="https://www.w3schools.com/">w3schools</a> <i>(in progress)</i></li>
-                    <li><b>HTML and CSS: Visual QuickStart Guide, 9th Edition</b> (2020), Joe Casabona <i>(completed)</i></li>
-                    <li><a href="https://ru.code-basics.com/languages/html">HTML Code-Basics</a> <i>(completed)</i></li>
-                    <li><a href="https://ru.code-basics.com/languages/html">CSS Code-Basics</a> <i>(completed)</i></li>
-                    <li>JavaScript Manual on <a href="https://learn.javascript.ru/">https://learn.javascript.ru/</a> <i>(in progress)</i></li>
-                    <li>RS Schools Course <a href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a> <i>(in progress)</i></li>
+                    <li><b>University:</b> University Polytechnic College "Radiopolytechnicum"'15, Peter the Great St.
+                        Petersburg Polytechnic University'18</li>
+                    <li><b>Courses:</b>
+                        <ul>
+                            <li><a href="https://htmlacademy.ru/"></a>HTML Academy</li>
+                            <li>HyperSkill <a href="https://hyperskill.org/tracks/5">Frontend Core</a>: <i>36% completed
+                                    topics, 50% applied core topics (by completing project stages)</i></li>
+                            <li><a href="https://www.w3schools.com/">w3schools</a> <i>(in progress)</i></li>
+                            <li><b>HTML and CSS: Visual QuickStart Guide, 9th Edition</b> (2020), Joe Casabona
+                                <i>(completed)</i></li>
+                            <li><a href="https://ru.code-basics.com/languages/html">HTML Code-Basics</a> <i>(completed)</i>
+                            </li>
+                            <li><a href="https://ru.code-basics.com/languages/html">CSS Code-Basics</a> <i>(completed)</i>
+                            </li>
+                            <li>JavaScript Manual on <a href="https://learn.javascript.ru/">https://learn.javascript.ru/</a>
+                                <i>(in progress)</i></li>
+                            <li>RS Schools Course <a href="https://rs.school/js-stage0/">JavaScript/Front-end. Stage 0</a>
+                                <i>(in progress)</i></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-        <div class="wrapper">
-            <h2>Languages</h2>
+            </section>
         </div>
-        <ul>
-            <li>Russian: Native</li>
-            <li>English: <a href="https://www.efset.org/cert/jpAtuC">C1 Advanced</a> (according to EF SET online test)</li>
-        </ul>
     </main>
     <footer>
         <ul>
@@ -118,6 +146,9 @@
         </ul>
     </footer>
     <script src="hightlight/highlight.min.js"></script>
-    <script>hljs.highlightAll();</script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
+
 </html>
