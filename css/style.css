@@ -272,3 +272,17 @@ h2 {
     margin-top: 0;
     padding-top: 0;
 }
+
+.experience ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.experience ul ul {
+    display: flex;
+}
+
+.experience ul ul li:last-child::before {
+    content: '-';
+    padding: 0 10px;
+}
