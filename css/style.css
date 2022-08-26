@@ -78,18 +78,20 @@ h2 {
     background-color: var(--accent-bg-color); 
 }
 
+#contact .container {
+    margin: 0 auto;
+    width: 450px;
+}
+
 #contact ul {    
-    grid-auto-flow: column;
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 60px;
-    display: grid;
-    margin-left: 15px;
+    columns: 2;
     color: var(--contact-color);    
 }
 
 #contact ul li {
     position: relative;
     list-style-type: none;
+    width: 75%;
     margin-bottom: 10px;
     font: 400 12px 'Inter', sans-serif;
     line-height: 30px;    
