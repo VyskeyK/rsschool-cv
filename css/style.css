@@ -17,6 +17,11 @@ body {
     font: normal 10px 'Poppins', sans-serif;
 }
 
+main {
+    width: 800px;
+    margin: 0 auto;
+}
+
 h1 {
     font: normal 36px 'Bellota Text', cursive;
     line-height: 141%;
