@@ -196,7 +196,7 @@ h2 {
     letter-spacing: 0.075em;
 }
 
-.skills {
+.skills, .languages {
     position: relative;
     width: 260px;
     padding-bottom: 25px;
@@ -229,27 +229,27 @@ h2 {
     border-right: 15px solid var(--main-bg-color);
 }
 
-.skills .wrapper {
+.skills .wrapper, .languages .wrapper {
     width: 210px;
     margin: 15px auto;
     padding-top: 35px;
 }
 
-.skills h2 {
+.skills h2 , .languages h2 {
     text-align: right;
 }
 
-.skills ul {
+.skills ul , .languages ul {
     position: relative;
     margin: 10px;
     list-style-type: none;
 }
 
-.skills ul li {
+.skills ul li , .languages ul li{
     margin-bottom: 10px;
 }
 
-.skills ul li::before {
+.skills ul li::before , .languages ul li::before{
     content: ' ';
     display: inline-block;
     position: absolute; 
@@ -259,4 +259,9 @@ h2 {
     height: 7px;
     border-radius: 50%;
     background-color: var(--item-color);
+}
+
+.languages .wrapper {
+    margin-top: 0;
+    padding-top: 0;
 }
