@@ -38,7 +38,7 @@ nav {
     width: 900px;
 }
 
-nav ul, footer ul {
+nav ul, footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,6 +57,16 @@ nav a, footer li, footer a {
 footer .container {
     margin: 20px auto 0;
     width: 900px;
+    color: var(--add-font-color);
+}
+
+.rss {
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    background-image: url(../assets/svg/rss-white.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .left {
