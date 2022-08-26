@@ -145,23 +145,23 @@ h2 {
 }
 
 #phone::before {
-    background-image: url("../img/Phone.svg");
+    background-image: url("../assets/svg/Phone.svg");
 }
 
 #mail::before {
-    background-image: url("../img/Gmail.svg");
+    background-image: url("../assets/svg/Gmail.svg");
 }
 
 #git::before {
-    background-image: url("../img/GitHub.svg");
+    background-image: url("../assets/svg/GitHub.svg");
 }
 
 #tg::before {
-    background-image: url("../img/Telegram.svg");
+    background-image: url("../assets/svg/Telegram.svg");
 }
 
 #discord::before {
-    background-image: url("../img/Discord.svg");
+    background-image: url("../assets/svg/Discord.svg");
 }
 
 .about-me {
