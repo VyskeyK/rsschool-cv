@@ -209,12 +209,10 @@ h2 {
     background-color: var(--add-bg-color);
 }
 
-.skills::before {
+.skills::before, .skills::after {
     content: ' ';
     display: inline-block;
     position: absolute;
-    top: 50px;
-    left: 335px;
     width: 0;
     height: 0;
     border-top: 5px solid transparent;
@@ -222,17 +220,14 @@ h2 {
     border-right: 15px solid var(--main-bg-color);
 }
 
+.skills::before {    
+    top: 50px;
+    left: 335px;    
+}
+
 .skills::after {
-    content: ' ';
-    display: inline-block;
-    position: absolute;
     top: 250px;
     left: 335px;
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;   
-    border-right: 15px solid var(--main-bg-color);
 }
 
 .skills .wrapper, .languages .wrapper {
