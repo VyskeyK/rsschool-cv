@@ -256,7 +256,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-.skills ul li::before , .languages ul li::before{
+.skills ul li::before , .languages ul li::before, .education ul ul li::before{
     content: ' ';
     display: inline-block;
     position: absolute; 
@@ -273,7 +273,8 @@ h2 {
     padding-top: 0;
 }
 
-.experience ul {
+.experience ul, .education ul {
+    position: relative;
     list-style-type: none;
     padding-left: 0;
 }
@@ -285,4 +286,17 @@ h2 {
 .experience ul ul li:last-child::before {
     content: '-';
     padding: 0 10px;
+}
+
+.education ul li {
+    margin: 10px auto;
+}
+
+.education ul ul li::before {
+    left: 0;
+}
+
+.education ul ul li {
+    margin: 10px auto;
+    padding-left: 15px;
 }
