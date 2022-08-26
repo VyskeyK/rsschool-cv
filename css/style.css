@@ -10,6 +10,7 @@
     --item-color: #ED6A6D;
     --contact-color: #231F20;
     --contact-b-color: #BBBDBF;
+    --link-font-color: #0084AE;
 }
 
 body {
@@ -21,6 +22,12 @@ main {
     display: flex;
     width: 800px;
     margin: 0 auto;
+}
+
+a {
+    font: normal 11px 'Lato, sans-serif';
+    color: var(--link-font-color);
+    text-decoration: underline;
 }
 
 .left {
